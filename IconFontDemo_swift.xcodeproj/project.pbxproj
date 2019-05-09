@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B37CA6522283D0DF006164B2 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B37CA6512283D0DF006164B2 /* libxml2.tbd */; };
+		B3BE00DF2282E4B300420023 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BE00DE2282E4B300420023 /* AppDelegate.swift */; };
+		B3BE00E12282E4B300420023 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BE00E02282E4B300420023 /* ViewController.swift */; };
+		B3BE00E42282E4B300420023 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3BE00E22282E4B300420023 /* Main.storyboard */; };
+		B3BE00E62282E4B500420023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3BE00E52282E4B500420023 /* Assets.xcassets */; };
+		B3BE00E92282E4B500420023 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3BE00E72282E4B500420023 /* LaunchScreen.storyboard */; };
+		B3BE01082282E4EB00420023 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BE00F22282E4EA00420023 /* TFHpple.m */; };
+		B3BE01092282E4EB00420023 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = B3BE00F52282E4EA00420023 /* README.markdown */; };
+		B3BE010A2282E4EB00420023 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BE00F62282E4EA00420023 /* TFHppleElement.m */; };
+		B3BE010B2282E4EB00420023 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BE00F72282E4EA00420023 /* XPathQuery.m */; };
+		B3BE010C2282E4EB00420023 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = B3BE00F82282E4EA00420023 /* LICENSE.txt */; };
+		B3BE010E2282E4EB00420023 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3BE00FB2282E4EB00420023 /* iconfont.ttf */; };
+		B3BE010F2282E4EB00420023 /* demo_index.html in Resources */ = {isa = PBXBuildFile; fileRef = B3BE00FC2282E4EB00420023 /* demo_index.html */; };
+		B3BE01102282E4EB00420023 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B3BE00FF2282E4EB00420023 /* LICENSE */; };
+		B3BE01112282E4EB00420023 /* TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BE01012282E4EB00420023 /* TBCityIconFont.m */; };
+		B3BE01122282E4EB00420023 /* TBCityIconInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BE01022282E4EB00420023 /* TBCityIconInfo.m */; };
+		B3BE01132282E4EB00420023 /* UIImage+TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BE01032282E4EB00420023 /* UIImage+TBCityIconFont.m */; };
+		B3BE01142282E4EB00420023 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B3BE01072282E4EB00420023 /* README.md */; };
+		B3BE011E2282E70600420023 /* SGTIconFontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BE011C2282E70600420023 /* SGTIconFontManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B37CA6512283D0DF006164B2 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		B3BE00DB2282E4B300420023 /* IconFontDemo_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconFontDemo_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3BE00DE2282E4B300420023 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3BE00E02282E4B300420023 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3BE00E32282E4B300420023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3BE00E52282E4B500420023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3BE00E82282E4B500420023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3BE00EA2282E4B500420023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3BE00F12282E4EA00420023 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		B3BE00F22282E4EA00420023 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		B3BE00F32282E4EA00420023 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		B3BE00F42282E4EA00420023 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		B3BE00F52282E4EA00420023 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
+		B3BE00F62282E4EA00420023 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		B3BE00F72282E4EA00420023 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		B3BE00F82282E4EA00420023 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		B3BE00FB2282E4EB00420023 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
+		B3BE00FC2282E4EB00420023 /* demo_index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = demo_index.html; sourceTree = "<group>"; };
+		B3BE00FF2282E4EB00420023 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B3BE01012282E4EB00420023 /* TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconFont.m; sourceTree = "<group>"; };
+		B3BE01022282E4EB00420023 /* TBCityIconInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconInfo.m; sourceTree = "<group>"; };
+		B3BE01032282E4EB00420023 /* UIImage+TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TBCityIconFont.m"; sourceTree = "<group>"; };
+		B3BE01042282E4EB00420023 /* TBCityIconInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconInfo.h; sourceTree = "<group>"; };
+		B3BE01052282E4EB00420023 /* TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconFont.h; sourceTree = "<group>"; };
+		B3BE01062282E4EB00420023 /* UIImage+TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TBCityIconFont.h"; sourceTree = "<group>"; };
+		B3BE01072282E4EB00420023 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B3BE011B2282E5BE00420023 /* IconFontDemo_swift_Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IconFontDemo_swift_Bridging-Header.h"; sourceTree = "<group>"; };
+		B3BE011C2282E70600420023 /* SGTIconFontManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGTIconFontManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3BE00D82282E4B300420023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37CA6522283D0DF006164B2 /* libxml2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B37CA6502283D0DF006164B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B37CA6512283D0DF006164B2 /* libxml2.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3BE00D22282E4B300420023 = {
+			isa = PBXGroup;
+			children = (
+				B3BE00DD2282E4B300420023 /* IconFontDemo_swift */,
+				B3BE00DC2282E4B300420023 /* Products */,
+				B37CA6502283D0DF006164B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B3BE00DC2282E4B300420023 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3BE00DB2282E4B300420023 /* IconFontDemo_swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3BE00DD2282E4B300420023 /* IconFontDemo_swift */ = {
+			isa = PBXGroup;
+			children = (
+				B3BE00F02282E4EA00420023 /* hpple */,
+				B3BE00FE2282E4EB00420023 /* IconFont */,
+				B3BE00F92282E4EB00420023 /* IconFontManager */,
+				B3BE00DE2282E4B300420023 /* AppDelegate.swift */,
+				B3BE00E02282E4B300420023 /* ViewController.swift */,
+				B3BE00E22282E4B300420023 /* Main.storyboard */,
+				B3BE00E52282E4B500420023 /* Assets.xcassets */,
+				B3BE00E72282E4B500420023 /* LaunchScreen.storyboard */,
+				B3BE00EA2282E4B500420023 /* Info.plist */,
+				B3BE011B2282E5BE00420023 /* IconFontDemo_swift_Bridging-Header.h */,
+			);
+			path = IconFontDemo_swift;
+			sourceTree = "<group>";
+		};
+		B3BE00F02282E4EA00420023 /* hpple */ = {
+			isa = PBXGroup;
+			children = (
+				B3BE00F12282E4EA00420023 /* TFHppleElement.h */,
+				B3BE00F22282E4EA00420023 /* TFHpple.m */,
+				B3BE00F32282E4EA00420023 /* XPathQuery.h */,
+				B3BE00F42282E4EA00420023 /* TFHpple.h */,
+				B3BE00F52282E4EA00420023 /* README.markdown */,
+				B3BE00F62282E4EA00420023 /* TFHppleElement.m */,
+				B3BE00F72282E4EA00420023 /* XPathQuery.m */,
+				B3BE00F82282E4EA00420023 /* LICENSE.txt */,
+			);
+			path = hpple;
+			sourceTree = "<group>";
+		};
+		B3BE00F92282E4EB00420023 /* IconFontManager */ = {
+			isa = PBXGroup;
+			children = (
+				B3BE011C2282E70600420023 /* SGTIconFontManager.swift */,
+				B3BE00FB2282E4EB00420023 /* iconfont.ttf */,
+				B3BE00FC2282E4EB00420023 /* demo_index.html */,
+			);
+			path = IconFontManager;
+			sourceTree = "<group>";
+		};
+		B3BE00FE2282E4EB00420023 /* IconFont */ = {
+			isa = PBXGroup;
+			children = (
+				B3BE00FF2282E4EB00420023 /* LICENSE */,
+				B3BE01002282E4EB00420023 /* IconFont */,
+				B3BE01072282E4EB00420023 /* README.md */,
+			);
+			path = IconFont;
+			sourceTree = "<group>";
+		};
+		B3BE01002282E4EB00420023 /* IconFont */ = {
+			isa = PBXGroup;
+			children = (
+				B3BE01012282E4EB00420023 /* TBCityIconFont.m */,
+				B3BE01022282E4EB00420023 /* TBCityIconInfo.m */,
+				B3BE01032282E4EB00420023 /* UIImage+TBCityIconFont.m */,
+				B3BE01042282E4EB00420023 /* TBCityIconInfo.h */,
+				B3BE01052282E4EB00420023 /* TBCityIconFont.h */,
+				B3BE01062282E4EB00420023 /* UIImage+TBCityIconFont.h */,
+			);
+			path = IconFont;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3BE00DA2282E4B300420023 /* IconFontDemo_swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3BE00ED2282E4B500420023 /* Build configuration list for PBXNativeTarget "IconFontDemo_swift" */;
+			buildPhases = (
+				B3BE00D72282E4B300420023 /* Sources */,
+				B3BE00D82282E4B300420023 /* Frameworks */,
+				B3BE00D92282E4B300420023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IconFontDemo_swift;
+			productName = IconFontDemo_swift;
+			productReference = B3BE00DB2282E4B300420023 /* IconFontDemo_swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3BE00D32282E4B300420023 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "huang shervin";
+				TargetAttributes = {
+					B3BE00DA2282E4B300420023 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = B3BE00D62282E4B300420023 /* Build configuration list for PBXProject "IconFontDemo_swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3BE00D22282E4B300420023;
+			productRefGroup = B3BE00DC2282E4B300420023 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3BE00DA2282E4B300420023 /* IconFontDemo_swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3BE00D92282E4B300420023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3BE00E92282E4B500420023 /* LaunchScreen.storyboard in Resources */,
+				B3BE00E62282E4B500420023 /* Assets.xcassets in Resources */,
+				B3BE01102282E4EB00420023 /* LICENSE in Resources */,
+				B3BE010F2282E4EB00420023 /* demo_index.html in Resources */,
+				B3BE010E2282E4EB00420023 /* iconfont.ttf in Resources */,
+				B3BE01092282E4EB00420023 /* README.markdown in Resources */,
+				B3BE01142282E4EB00420023 /* README.md in Resources */,
+				B3BE010C2282E4EB00420023 /* LICENSE.txt in Resources */,
+				B3BE00E42282E4B300420023 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3BE00D72282E4B300420023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3BE011E2282E70600420023 /* SGTIconFontManager.swift in Sources */,
+				B3BE010A2282E4EB00420023 /* TFHppleElement.m in Sources */,
+				B3BE00E12282E4B300420023 /* ViewController.swift in Sources */,
+				B3BE010B2282E4EB00420023 /* XPathQuery.m in Sources */,
+				B3BE01112282E4EB00420023 /* TBCityIconFont.m in Sources */,
+				B3BE01082282E4EB00420023 /* TFHpple.m in Sources */,
+				B3BE00DF2282E4B300420023 /* AppDelegate.swift in Sources */,
+				B3BE01132282E4EB00420023 /* UIImage+TBCityIconFont.m in Sources */,
+				B3BE01122282E4EB00420023 /* TBCityIconInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3BE00E22282E4B300420023 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3BE00E32282E4B300420023 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3BE00E72282E4B500420023 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3BE00E82282E4B500420023 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3BE00EB2282E4B500420023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3BE00EC2282E4B500420023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3BE00EE2282E4B500420023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = IconFontDemo_swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yikou.IconFontDemo-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IconFontDemo_swift/IconFontDemo_swift_Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3BE00EF2282E4B500420023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = IconFontDemo_swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yikou.IconFontDemo-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IconFontDemo_swift/IconFontDemo_swift_Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3BE00D62282E4B300420023 /* Build configuration list for PBXProject "IconFontDemo_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3BE00EB2282E4B500420023 /* Debug */,
+				B3BE00EC2282E4B500420023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3BE00ED2282E4B500420023 /* Build configuration list for PBXNativeTarget "IconFontDemo_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3BE00EE2282E4B500420023 /* Debug */,
+				B3BE00EF2282E4B500420023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3BE00D32282E4B300420023 /* Project object */;
+}
